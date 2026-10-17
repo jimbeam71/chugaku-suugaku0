@@ -59,7 +59,7 @@ p { margin: 0; }
 .lead { color: var(--muted); margin-top: 6px; }
 header { padding-top: 4px; }
 
-.tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.tabs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
 .tab {
   font: inherit; text-align: left; cursor: pointer; padding: 10px 10px; border-radius: 12px; display: flex; flex-direction: column; justify-content: flex-start;
   border: 2px solid var(--line); background: var(--card); color: var(--fg); min-width: 0;
@@ -255,7 +255,7 @@ footer { color: var(--muted); font-size: .82rem; text-align: center; }
     }).join('');
     return '<nav class="topnav" aria-label="サイト内の移動"><a href="https://chugaku.senta1111.workers.dev/">← 中学トップ</a><a class="navbtn" href="https://chugaku.senta1111.workers.dev/suugaku.html">数学トップ</a></nav>' +
       '<header><p class="kicker">レベル0</p><h1>やりなおし数学</h1>' +
-      '<p class="lead">小学校でつまずいたところから、ゆっくり戻ろう。約数・小数・分数が、中学数学の土台になる。</p></header>' +
+      '<p class="lead">小学校でつまずいたところから、ゆっくり戻ろう。約数・小数・分数・割合が、中学数学の土台になる。</p></header>' +
       '<nav class="tabs" aria-label="パート">' + tabs + '</nav>';
   }
 

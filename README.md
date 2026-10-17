@@ -3,7 +3,7 @@
 公開URL: https://chugaku-suugaku0.senta1111.workers.dev/
 
 - 配信するのは `public/index.html` の1枚だけ（KaTeXの式表示も中に入っている）。
-- 内容: 倍数と約数 / 小数と分数 / 分数の計算（かけ算・わり算）。全17ステップ・120問。
+- 内容: 倍数と約数 / 小数と分数 / 分数の計算 / 割合・比・速さ。全22ステップ・157問。
 - 問題を直す・足すとき: `tools/gen0.js` を直す。
   1. `cd tools`
   2. `node gen0.js`（`src/data.js` を作る）
